@@ -163,6 +163,14 @@ pre code {
     color: #337ab7;
 }
 
+.post-container a:link,
+.post-container a:visited,
+.post-container a:hover,
+.post-container a:active
+ {
+    text-decoration: none;
+}
+
 
 /*点击博文内部的目录时,跳转到指定标题*/
 article .post-container h1,
