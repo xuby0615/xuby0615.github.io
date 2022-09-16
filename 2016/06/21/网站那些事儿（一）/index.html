@@ -13,11 +13,11 @@
 
     <title>
         
-          网站那些事儿（二）｜Irelia&#39;s Blog
+          网站那些事儿（一）｜Irelia&#39;s Blog
         
     </title>
 
-    <link rel="canonical" href="https://www.xuby.site/2021/06/21/网站那些事儿（二）/">
+    <link rel="canonical" href="https://www.xuby.site/2016/06/21/网站那些事儿（一）/">
 
     <!-- Bootstrap Core CSS -->
     
@@ -168,25 +168,21 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
                 <div class="post-heading">
-                    <h1>网站那些事儿（二）</h1>
+                    <h1>网站那些事儿（一）</h1>
                     
                     <span class="meta">
                          作者 Irelia
                          <span>
-                          日期 2021-06-21
+                          日期 2016-06-21
                          </span>
                     </span>
                     <div class="tags text-center">
                         
-                        <a class="tag" href="/tags/#前端" title="前端">前端</a>
-                        
                         <a class="tag" href="/tags/#技术" title="技术">技术</a>
                         
+                        <a class="tag" href="/tags/#总纲" title="总纲">总纲</a>
+                        
                         <a class="tag" href="/tags/#网站那些事儿" title="网站那些事儿">网站那些事儿</a>
-                        
-                        <a class="tag" href="/tags/#开发流程" title="开发流程">开发流程</a>
-                        
-                        <a class="tag" href="/tags/#UI设计" title="UI设计">UI设计</a>
                         
                     </div>
                 </div>
@@ -195,7 +191,7 @@
     </div>
     <div class="post-title-haojen">
         <span>
-            网站那些事儿（二）
+            网站那些事儿（一）
         </span>
     </div>
 </header>
@@ -207,15 +203,32 @@
                 <!-- Post Container -->
             <div class="col-lg-8 col-lg-offset-1 col-sm-9 post-container">
 
-                <h1 id="Review"><a href="#Review" class="headerlink" title="Review"></a>Review</h1><p>我们在《网站那些事儿（一）》中，给大家介绍了关于网站的基础概念。在本章，预备向大家介绍关于网站开发的大致流程。</p>
-<h1 id="一、UI设计"><a href="#一、UI设计" class="headerlink" title="一、UI设计"></a>一、UI设计</h1><p>UI，即User Interface，用户界面。说的通俗一点，就是大家打开网站所看的网站界面。那么，UI设计师，就是设计整个网站的风格、样式。<br>举个例子，建筑师要盖建筑，就必须要有建造图纸；汽车要生产，也必须要有设计图纸。所以，UI设计师，就是一切开发的基石。无论是WEB开发，或是App的开发，UI设计师都是必不可少的。因此可以看到，UI会跟着产品经理一起见客户，这样，当设计原型完成时，就交给了我们的前端。</p>
-<h1 id="二、前端"><a href="#二、前端" class="headerlink" title="二、前端"></a>二、前端</h1><p>当设计师出完设计图之后，自然而然的就交给了我们前端去实现界面了。前端工程师，根据UI做的设计图，运用大量的前端技术，就做出了网页。下面简单介绍几种使用度高达100%的前端技术。</p>
-<h2 id="1、HTML"><a href="#1、HTML" class="headerlink" title="1、HTML"></a>1、HTML</h2><p>HTML（Hyper Text Markup Language），超文本标记语言。与其说这是一种语言，倒不如说这是标签组的集合。<br>比如，想在网页中添加链接，实现页面的点击跳转，那么，只需要这样写：<br><code>&lt;a href=&quot;https://www.xuby.site&quot;&gt;点击跳转主页&lt;/a&gt;</code>就可以了，试一下：<a href='http://www.xuby.site'>点击跳转主页</a>。<br>这里的<code>&lt;a&gt;&lt;/a&gt;</code>就是一组链接标签，<code>href</code>是这个标签的一个属性，其值就是要跳转的链接。<br>在HTML中，这样的标签多达几十种，您所浏览的大大小小的网站，无一不是成百上千个标签组成的。更有意思的是，HTML还是一种语义化的语言，就像上文的<code>&lt;a&gt;</code>标签，其中a就代表了英语单词的anchor，意为船锚。船停到船锚抛下的地方，网页转到“锚”所指向的位置。这样看，是不是很有趣呢？</p>
-<h2 id="2、DIV"><a href="#2、DIV" class="headerlink" title="2、DIV"></a>2、DIV</h2><p>提到HTML标签，就必须有说到<code>&lt;div&gt;&lt;/div&gt;</code>这一组特殊的标签。网页布局是一件很有意思的事情，它不像我们平时整理桌面文件那样，可以随意的拖动。网页里的元素是不会按你所想，老老实实的呆到你想让其所在的位置。因此，必须要有专门的方法来控制这些元素所处的位置。这就是所说的DIV盒模型。<br>最早的网页是没有所谓的布局的，元素都是从上到下的排列。后来，开始使用<code>&lt;table&gt;</code>表格布局，这种布局的一大特色就是你会在页面中看到大量的<code>&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;</code>，十分不方便代码的阅读和管理。因此，就提出了div盒模型布局。<br>盒模型布局允许开发者自由的设定元素的大小、边距等位置信息。而将这一切变为可能的，就是CSS。</p>
-<h2 id="3、CSS"><a href="#3、CSS" class="headerlink" title="3、CSS"></a>3、CSS</h2><p>CSS（Cascading Style Sheets），层叠样式表。正如其字面含义，是用来控制样式的。结合上文的<code>&lt;a&gt;</code>标签，我们看个例子。<br>我们都知道，当我们把鼠标放到链接上时，会出现下划线，代表这是一个链接。那么，我们现在不想让下划线出现，应该怎么办呢？<br>我们可以在写<code>&lt;a&gt;</code>标签时，给他添加行内样式：<br><code>&lt;a href=&quot;https://www.xuby.site&quot; style=&quot;text-decoration:none;&quot;&gt;点击跳转主页&lt;/a&gt;</code><br>就可以了，对比上文的链接，我们来看一下效果：<a href="https://www.xuby.site" style="text-decoration:none;">点击跳转主页</a>。<br>这就是一个很简单的应用，小到控制有没有下划线，文字的字体、颜色，大到结合<code>&lt;div&gt;</code>标签控制元素的大小、边距等等，都可以用CSS做到。所以，一个网页最基本，也是最重要的两点，就是HTML标签和DIV+CSS页面布局。</p>
-<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>看到现在，大家已经大致了解了如何制作一些简单的无交互静态页面。之所以说是无交互的静态页面，是因为需要用到交互和动态功能的JavaScript和服务器脚本，是需要有一定的计算机基础的。因此，不要着急，我们好戏还在后头呢。</p>
-<p><strong>PS</strong>：推荐学习前端基础知识的一个网站：<a target="_blank" rel="noopener" href="http://www.w3school.com.cn/">W3CSchool</a>
-　　</p>
+                <h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>由于整体的WEB研发过程是一个庞大的系统工程，所以，本系列只做基础工作，将WEB整体开发以最简单的方式介绍给大家</p>
+<h1 id="什么是网站"><a href="#什么是网站" class="headerlink" title="什么是网站"></a>什么是网站</h1><h2 id="1、什么是浏览器"><a href="#1、什么是浏览器" class="headerlink" title="1、什么是浏览器"></a>1、什么是浏览器</h2><p>我们用电脑听歌、看电影，都有对应的应用软件。比如，听歌有网易云音乐、看电影有暴风影音。同样的道理，我们想要浏览网页，就需要有浏览器了。</p>
+<p>所以，我们能够知道，计算机软件，其实就是一组<strong>能够打开对应文件</strong>的程序。就像音乐播放器打开音乐文件，视频播放器打开视频文件一样，浏览器就是用来打开网页文件的一种软件。因此，从本质上来讲，与前面的媒体播放器，并没有什么区别。</p>
+<h2 id="2、什么是网页"><a href="#2、什么是网页" class="headerlink" title="2、什么是网页"></a>2、什么是网页</h2><p>我们日常说的打开一个网站，是指的是什么呢？如果我们曾留心过，就会发现所谓的网页，其实质就是一个以.html为结尾的文件。我们不妨来做个试验。</p>
+<ol>
+<li><p>键盘按下”win+r”（”win”键就是在”ctrl”和”alt”键中间的微软logo，类似四个小方格），输入”notepad”，就像这样：<br><img src="http://i.imgur.com/93LDvBa.png"><br>点击回车，我们就打开了一个记事本。</p>
+</li>
+<li><p>输入以下代码：</p>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+</head>
+<body>
+Hello World
+</body>
+</html></li>
+<li><p>“文件”-“另存为”，文件名为index.html，就像这样：<br><img src="http://i.imgur.com/tXwRaiq.png"></p>
+</li>
+<li><p>打开刚才保存的文件，是不是在浏览器中看到”Hello World”这几个字呢？就像这样：<br><img src="http://i.imgur.com/Yw7C8xU.png"></p>
+</li>
+<li><p>恭喜你，你已经学会怎么制作一个最简单的网站页面了~</p>
+<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>由此可见，所谓的访问网站，其实质就<strong>是用浏览器打开一个以.html为后缀名的文件</strong>而已。而至于大家日常生活中所看到的众多精美的网站，更多的是运用到了css+div布局技术以及javascript语言作为辅助开发手段，那就是后话了~</p>
+</li>
+</ol>
 
 
                 <hr>
@@ -225,12 +238,12 @@
                 <ul class="pager">
                     
                         <li class="previous">
-                            <a href="/2021/06/21/简单讲依赖注入/" data-toggle="tooltip" data-placement="top" title="简单讲依赖注入">&larr; Previous Post</a>
+                            <a href="/2017/10/04/再叙《望舒月》/" data-toggle="tooltip" data-placement="top" title="再叙《望舒月》">&larr; Previous Post</a>
                         </li>
                     
                     
                         <li class="next">
-                            <a href="/2017/10/04/再叙《望舒月》/" data-toggle="tooltip" data-placement="top" title="再叙《望舒月》">Next Post &rarr;</a>
+                            <a href="/2010/09/23/望舒月/" data-toggle="tooltip" data-placement="top" title="望舒月">Next Post &rarr;</a>
                         </li>
                     
                 </ul>
@@ -243,7 +256,7 @@
 
             <div class="hidden-xs col-sm-3 toc-col" >
                 <div class="toc-wrap">
-                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Review"><span class="toc-text">Review</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81UI%E8%AE%BE%E8%AE%A1"><span class="toc-text">一、UI设计</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E5%89%8D%E7%AB%AF"><span class="toc-text">二、前端</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1%E3%80%81HTML"><span class="toc-text">1、HTML</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2%E3%80%81DIV"><span class="toc-text">2、DIV</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3%E3%80%81CSS"><span class="toc-text">3、CSS</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BB%93%E8%AF%AD"><span class="toc-text">结语</span></a></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2"><span class="toc-text">写在前面</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E7%BD%91%E7%AB%99"><span class="toc-text">什么是网站</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1%E3%80%81%E4%BB%80%E4%B9%88%E6%98%AF%E6%B5%8F%E8%A7%88%E5%99%A8"><span class="toc-text">1、什么是浏览器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2%E3%80%81%E4%BB%80%E4%B9%88%E6%98%AF%E7%BD%91%E9%A1%B5"><span class="toc-text">2、什么是网页</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BB%93%E8%AF%AD"><span class="toc-text">结语</span></a></li></ol>
                 </div>
             </div>
         </div>
@@ -265,15 +278,11 @@
                 </h5>
                     <div class="tags">
                         
-                          <a class="tag" href="/tags/#前端" title="前端">前端</a>
-                        
                           <a class="tag" href="/tags/#技术" title="技术">技术</a>
                         
+                          <a class="tag" href="/tags/#总纲" title="总纲">总纲</a>
+                        
                           <a class="tag" href="/tags/#网站那些事儿" title="网站那些事儿">网站那些事儿</a>
-                        
-                          <a class="tag" href="/tags/#开发流程" title="开发流程">开发流程</a>
-                        
-                          <a class="tag" href="/tags/#UI设计" title="UI设计">UI设计</a>
                         
                     </div>
                 </section>
